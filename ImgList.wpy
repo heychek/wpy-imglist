@@ -1,0 +1,12 @@
+<template>
+  <view class="ImgList-root" style="height: {{rootHeight}}rpx; width: {{rootWidth}}rpx;">
+    <repeat for="{{urls}}" key="idx" index="idx" item="url" class="ImgList-img-boxs">
+      <view class="ImgList-img-box" style="height: {{boxHeight}}rpx; width: {{boxWidth}}rpx">
+        <ImgBox :url.sync="url" :isDelShow.sync="isDelShow" @delImg.user="delImg" @preview.user="preview" />
+      </view>
+    </repeat>
+  </view>
+</template>
+
+<style scoped lang="less" src='./ImgList.less' />
+<script src="./ImgList.js" />

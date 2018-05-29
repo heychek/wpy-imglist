@@ -1,0 +1,11 @@
+<template>
+  <view class="ImgBox-root" @tap="imgPreview({{url}})">
+    <view class="ImgBox-del-icon" wx:if="{{url!=''&&isDelShow}}">
+      <image mode="scaleToFill" src="{{DEL_ICON}}" @tap.stop="delImg({{url}})" />
+    </view>
+    <image mode="scaleToFill" src="{{url}}" />
+  </view>
+</template>
+
+<style scoped lang="less" src='./ImgBox.less' />
+<script src="./ImgBox.js" />
