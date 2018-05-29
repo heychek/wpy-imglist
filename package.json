@@ -2,7 +2,7 @@
   "name": "wpy-imglist",
   "version": "1.0.0",
   "description": "wepy 框架下的小程序图片显示组件",
-  "main": "Popup.wpy",
+  "main": "ImgList.wpy",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
