@@ -1,6 +1,6 @@
 {
   "name": "wpy-imglist",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "wepy 框架下的小程序图片显示组件",
   "main": "ImgList.wpy",
   "scripts": {
