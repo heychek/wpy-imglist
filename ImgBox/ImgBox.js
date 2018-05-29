@@ -1,7 +1,7 @@
 import wepy from 'wepy';
 import {
   modal
-} from '../../../utils/modal';
+} from './utils';
 
 export default class ImgBox extends wepy.component {
   props = {
@@ -16,7 +16,7 @@ export default class ImgBox extends wepy.component {
   }
 
   data = {
-    DEL_ICON: '../../../images/message_dele_icon_n.svg',
+    DEL_ICON: './message_dele_icon_n.svg',
     isShow: false
   }
 
