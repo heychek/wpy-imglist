@@ -1,5 +1,5 @@
 import wepy from 'wepy'
-import ImgBox from './ImgBox/ImgBox'
+import ImgBox from './ImgBox/ImgBox.wpy'
 
 export default class ImgList extends wepy.component {
   props = {

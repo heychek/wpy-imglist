@@ -1,7 +1,7 @@
 import wepy from 'wepy';
 import {
   modal
-} from './utils';
+} from './utils.js';
 
 export default class ImgBox extends wepy.component {
   props = {
